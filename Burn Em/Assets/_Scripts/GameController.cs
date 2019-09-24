@@ -39,6 +39,8 @@ public class GameController : MonoBehaviour
     // IEnumerator return type is required for Coroutines
     IEnumerator SpawnWaves()
     {
+        
+
         yield return new WaitForSeconds(startWait); // "Pause". This will "wait" for "startWait" seconds
         while(true) // Now we want to spawn some stuff...
         {
