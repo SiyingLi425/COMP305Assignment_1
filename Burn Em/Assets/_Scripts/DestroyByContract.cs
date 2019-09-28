@@ -8,6 +8,7 @@ public class DestroyByContract : MonoBehaviour
     public GameObject explosionPlayer;
     public int scoreValue = 10;
     public GameController gameController;
+    public GameObject playerController;
 
     void Start()
     {
@@ -33,10 +34,13 @@ public class DestroyByContract : MonoBehaviour
 
         if(other.tag == "Player")
         {
+            
             // Trigger game over logic in here
-            GameObject temp = Instantiate(explosionPlayer, other.transform.position, other.transform.rotation);
-            Destroy(temp, 2.0f);
-            Destroy(other.gameObject);
+            //GameObject temp = Instantiate(explosionPlayer, other.transform.position, other.transform.rotation);
+            //Destroy(temp, 5.0f);
+            //Destroy(other.gameObject);
+            gameController.playerGotHit();
+
         }
 
         // Debug.Log(other.gameObject.name);
@@ -45,7 +49,7 @@ public class DestroyByContract : MonoBehaviour
         // Instantiate asteroid explosion animation
         Instantiate(explosion, this.transform.position, this.transform.rotation);
 
-        Destroy(other.gameObject);  // Laser
+        //Destroy(other.gameObject);  // Laser
         Destroy(this.gameObject);   // Asteroid
     }
 }

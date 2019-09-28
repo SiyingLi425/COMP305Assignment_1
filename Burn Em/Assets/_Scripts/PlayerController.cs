@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float maxX;
     public float minY;
     public float maxY;
+    public int lives;
+    
 
     public GameObject laser;
     public Transform laserSpawn;
@@ -56,4 +58,5 @@ public class PlayerController : MonoBehaviour
             Mathf.Clamp(rBody.position.x, minX, maxX),   // Restrict x position to -8 and 4
             Mathf.Clamp(rBody.position.y, minY, maxY));  // Restrict y position to -4 and 4
     }
+
 }

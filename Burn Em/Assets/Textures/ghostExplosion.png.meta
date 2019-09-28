@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: d086aeca723ae6f4dbf6fd3fa535908e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8050381832889139733
+    second: ghostExplosion_0
+  - first:
+      213: 8476704351531890287
+    second: ghostExplosion_1
+  - first:
+      213: 7494894998235254871
+    second: ghostExplosion_2
+  - first:
+      213: 7423992583278009050
+    second: ghostExplosion_3
+  - first:
+      213: 6264843317489972516
+    second: ghostExplosion_4
+  - first:
+      213: 2729824023297051087
+    second: ghostExplosion_5
+  - first:
+      213: 2910144644676883050
+    second: ghostExplosion_6
+  - first:
+      213: -1986594547961477602
+    second: ghostExplosion_7
+  - first:
+      213: -4434413618288583745
+    second: ghostExplosion_8
+  - first:
+      213: 4577784133659772267
+    second: ghostExplosion_9
+  - first:
+      213: -4013254994025238316
+    second: ghostExplosion_10
+  - first:
+      213: 5941676371749521393
+    second: ghostExplosion_11
+  - first:
+      213: 2730790875144969914
+    second: ghostExplosion_12
+  - first:
+      213: 2071193990875327166
+    second: ghostExplosion_13
+  - first:
+      213: -7831223494593559473
+    second: ghostExplosion_14
+  - first:
+      213: 8853978418915393384
+    second: ghostExplosion_15
+  - first:
+      213: 7094375205937268071
+    second: ghostExplosion_16
+  - first:
+      213: 2368545465218467396
+    second: ghostExplosion_17
+  - first:
+      213: -4895818603962302536
+    second: ghostExplosion_18
+  - first:
+      213: 590881489044647390
+    second: ghostExplosion_19
+  - first:
+      213: 2747392653503461152
+    second: ghostExplosion_20
+  - first:
+      213: -8783281132008782197
+    second: ghostExplosion_21
+  - first:
+      213: -8307269392062421588
+    second: ghostExplosion_22
+  - first:
+      213: 4063395844108763535
+    second: ghostExplosion_23
+  - first:
+      213: -1480854943779985699
+    second: ghostExplosion_24
+  - first:
+      213: -1646204719869630118
+    second: ghostExplosion_25
+  - first:
+      213: 7163403359828110141
+    second: ghostExplosion_26
+  - first:
+      213: -5409132247658408558
+    second: ghostExplosion_27
+  - first:
+      213: 7142843474985047586
+    second: ghostExplosion_28
+  - first:
+      213: -7866557715747029350
+    second: ghostExplosion_29
+  - first:
+      213: 1753980267947975018
+    second: ghostExplosion_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghostExplosion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e75f87102364924c9c577d15fcbbea1
+      internalID: -8050381832889139733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72f7b8920614b4b9e323bf74157b66
+      internalID: 8476704351531890287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db2ccf5314002a41a1e77b74665284d
+      internalID: 7494894998235254871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a4aff1d99855a4facf48c8ebe515fc
+      internalID: 7423992583278009050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc447318cc74ae469a3aea8dfaf8bda
+      internalID: 6264843317489972516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dda0e3ebf6a444788510581070f61e
+      internalID: 2729824023297051087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bc5447c8474ec4fab67e93b28b9aca
+      internalID: 2910144644676883050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13938db189802cc45b1d487e1556b32b
+      internalID: -1986594547961477602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -13,11 +14,15 @@ public class GameController : MonoBehaviour
     public float startWait;     // How long until the first wave?
     public float spawnWait;     // How much time between each hazard in a wave?
     public float waveWait;      // How long between each wave of hazard?
+    public int lives;
+    public GameObject player;
+    public GameObject explosionPlayer;
 
     [Header("UI Options")]
     public Text scoreText;
-    public Text gameOverText;
-    public Text restartText;
+    public GameObject gameOverText;
+    public GameObject restartText;
+    public Text livesText;
 
     // Private variables
     private int score = 0;
@@ -55,11 +60,14 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(waveWait);
         }
     }
-    
+
+
+
     // Updates my score text
     void UpdateScore()
     {
         scoreText.text = "Score: " + score;
+        livesText.text = "Lives: " + lives;
     }
 
     // Accepts score values, then calls update score.
@@ -68,4 +76,23 @@ public class GameController : MonoBehaviour
         score += newScoreValue;
         UpdateScore();
     }
+    public void playerGotHit()
+    {
+        lives -= 1;
+        if(lives <= 0)
+        {
+            GameObject temp = Instantiate(explosionPlayer, player.transform.position, player.transform.rotation);
+            Destroy(temp, 5.0f);
+            Destroy(player.gameObject);
+            gameOverText.SetActive(true);
+             restartText.SetActive(true);
+        }
+
+    }
+    public void onClickRestartButton()
+    {
+        SceneManager.LoadScene("Main");
+      
+    }
+   
 }
