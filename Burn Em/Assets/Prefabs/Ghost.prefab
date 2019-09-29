@@ -123,6 +123,8 @@ MonoBehaviour:
     type: 3}
   scoreValue: 10
   gameController: {fileID: 0}
+  playerController: {fileID: 0}
+  waitExplosion: 4000
 --- !u!50 &750111672764088593
 Rigidbody2D:
   serializedVersion: 4

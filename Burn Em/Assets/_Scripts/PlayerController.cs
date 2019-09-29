@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ Burn Em
+ Auther: Siying Li
+ Last Modified By Siying Li
+ Date last modified: 29/09/2019
+ Description: Moves the player as well as shoot fire balls and play the fireBall audio
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,34 +19,40 @@ public class PlayerController : MonoBehaviour
     public float minY;
     public float maxY;
     public int lives;
-    
 
-    public GameObject laser;
-    public Transform laserSpawn;
+    public GameController gameController;
+    public GameObject fireBall;
+    public Transform fireBallSpawn;
     public float fireRate = 0.5f;
+
+    [Header("Sounds Settings")]
+    private AudioSource _fireSounds;
+
 
     // Private Variables
     private Rigidbody2D rBody;
     private float counter = 0.0f;
      
     // Start is called before the first frame update
-    // Use this for initialization
     void Start()
     {
+
         rBody = GetComponent<Rigidbody2D>();
+        _fireSounds = gameController.audioSources[(int)AudioClips.FIREBALL];
     }
 
     // Update is called once per frame
     void Update()
     {
         counter += Time.deltaTime;
-        // Debug.Log(counter);
 
+        //check for click and if counter is lower than fire rate
         if (Input.GetButton("Fire1") && counter > fireRate)
         {
-            // Create my laser object
-            Instantiate(laser, laserSpawn.position, laser.transform.rotation);
+            // creates fire ball at indicated location
+            Instantiate(fireBall, fireBallSpawn.position, fireBall.transform.rotation);
             counter = 0.0f;
+            _fireSounds.Play();
         }
     }
 
@@ -47,16 +61,14 @@ public class PlayerController : MonoBehaviour
         float horiz = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
 
-
-        // Debug.Log("H: " + horiz + " , V: " + vert);
         Vector2 newVelocity = new Vector2(horiz, vert);
 
         rBody.velocity = newVelocity * speed;
 
-        // Restrict the player from leaving the play area
+        // Limits the player's movement 
         rBody.position = new Vector2(
-            Mathf.Clamp(rBody.position.x, minX, maxX),   // Restrict x position to -8 and 4
-            Mathf.Clamp(rBody.position.y, minY, maxY));  // Restrict y position to -4 and 4
+            Mathf.Clamp(rBody.position.x, minX, maxX),  
+            Mathf.Clamp(rBody.position.y, minY, maxY));  
     }
 
 }

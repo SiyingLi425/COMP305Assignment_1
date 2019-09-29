@@ -1,6 +1,15 @@
-﻿using System.Collections;
+﻿
+/*
+ Burn Em
+ Auther: Siying Li
+ Last Modified By Siying Li
+ Date last modified: 29/09/2019
+ Description: On start scene only, loads the main scene when player clicks start.
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class StartScript : MonoBehaviour
 {
@@ -14,5 +23,14 @@ public class StartScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    /// <summary>
+    /// loads main scene
+    /// </summary>
+    public void onClickRestartButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+
     }
 }

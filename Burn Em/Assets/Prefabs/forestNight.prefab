@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6795289113120223008}
   - component: {fileID: 6795289113120223009}
-  - component: {fileID: 6795289113120223015}
+  - component: {fileID: 1556792787}
   m_Layer: 0
   m_Name: forestNight
   m_TagString: Untagged
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6795289113120223015
+--- !u!114 &1556792787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,9 +90,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6795289113120223010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1a1a3365d363d84bbc046c1d40fa906, type: 3}
+  m_Script: {fileID: 11500000, guid: 994f21da224504f4c935226bdb350b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   verticalSpeed: 0.1
-  resetPosition: 22.4
-  resetPoint: -22.4
+  resetPosition: 23
+  resetPoint: -23
